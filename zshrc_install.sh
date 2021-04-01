@@ -31,8 +31,8 @@ autoload -U promptinit; promptinit
 prompt pure
 
 # one-line pure prompt
-prompt_newline='%666v'
-PROMPT=' %(?.%F{magenta}❯.%F{red}✖)%f '
+prompt_newline='%666v '
+PURE_PROMPT_SYMBOL='%(?.%F{magenta}❯.%F{red}✖)%f'
 
 # load zsh-autosuggestions
 autoload -U compinit; compinit
